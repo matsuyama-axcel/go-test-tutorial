@@ -45,6 +45,9 @@ Goで単体テストコードを書くためのチュートリアルです<br>
 ```go
 // 関数名は必ず「Test」を接頭辞に付ける
 // 引数「t *testing.T」を受けることでテスト関数として動作する
+//テスト
+
+
 func TestExample(t *testing.T) {
   // 正常系のテストパターン
   success := map[string]struct {
