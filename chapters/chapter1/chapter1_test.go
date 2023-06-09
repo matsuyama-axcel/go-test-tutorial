@@ -12,14 +12,24 @@ func TestAddition(t *testing.T) {
 		want int
 	}{
 		// FIXME: テストケースを追加
+		"tc": {
+			numA: 50,
+			numB: 12,
+			want: 62,
+		},
 	}
 	// エラー系のテストパターン
 	fail := map[string]struct {
 		numA       int
 		numB       int
 		wantErrStr string
-	}{
+	}{    
 		// FIXME: テストケースを追加
+		"テストケース名": {  
+			numA: ,
+			numB: ,
+			want: []string{"a","b","c"},
+		},
 	}
 
 	for tt, tc := range success {
